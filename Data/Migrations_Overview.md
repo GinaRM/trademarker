@@ -22,14 +22,14 @@ You're now ready to add your first migration! Instruct EF Core to create a migra
 
 ---
 
-.NET CLI
+.NET Core CLI
 ```
 dotnet ef migrations add InitialCreate
 ```
 
 ---
 
-PowerShell
+Visual Studio
 ```
 Add-Migration InitialCreate
 ```
@@ -44,14 +44,14 @@ At this point you can have EF create your database and create your schema from t
 
 ---
 
-.NET CLI
+.NET Core CLI
 ```
 dotnet ef database update
 ```
 
 ---
 
-PowerShell
+Visual Studio
 ```
 Update-Database
 ```
