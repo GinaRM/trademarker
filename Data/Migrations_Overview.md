@@ -14,7 +14,7 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 }
 ```
 
-**After you create the migration and database, don't forget to delete this code**
+**After you create the migration and database, be sure to delete this code before running the tests**
 
 ## Create your first migration
 
