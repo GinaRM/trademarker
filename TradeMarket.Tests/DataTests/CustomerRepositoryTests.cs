@@ -140,8 +140,8 @@ namespace TradeMarket.Tests.DataTests
         private static IEnumerable<Person> ExpectedPersons =>
             new[]
             {
-                new Person { Id = 1, Name = "Name1", Surname = "Surname1", BirthDate = new DateTime(1980, 5, 25) },
-                new Person { Id = 2, Name = "Name2", Surname = "Surname2", BirthDate = new DateTime(1984, 10, 19) }
+                new Person { Id = 1, Name = "Han", Surname = "Solo", BirthDate = new DateTime(1942, 7, 13) },
+                new Person { Id = 2, Name = "Ethan", Surname = "Hunt", BirthDate = new DateTime(1964, 8, 18) }
             };
 
         private static IEnumerable<Customer> ExpectedCustomers =>
@@ -162,11 +162,11 @@ namespace TradeMarket.Tests.DataTests
         private static IEnumerable<ReceiptDetail> ExpectedReceiptsDetails =>
             new[]
             {
-                new ReceiptDetail { Id = 1, ReceiptId = 1, ProductId = 1, UnitPrice = 20, DiscountUnitPrice = 16, Quantity = 3 },
-                new ReceiptDetail { Id = 2, ReceiptId = 1, ProductId = 2, UnitPrice = 50, DiscountUnitPrice = 40, Quantity = 1 },
-                new ReceiptDetail { Id = 3, ReceiptId = 2, ProductId = 2, UnitPrice = 50, DiscountUnitPrice = 40, Quantity = 2 },
-                new ReceiptDetail { Id = 4, ReceiptId = 3, ProductId = 1, UnitPrice = 20, DiscountUnitPrice = 18, Quantity = 2 },
-                new ReceiptDetail { Id = 5, ReceiptId = 3, ProductId = 2, UnitPrice = 50, DiscountUnitPrice = 45, Quantity = 5 }
+                new ReceiptDetail { Id = 1, ReceiptId = 1, ProductId = 1, UnitPrice = 40, DiscountUnitPrice = 32, Quantity = 3 },
+                new ReceiptDetail { Id = 2, ReceiptId = 1, ProductId = 2, UnitPrice = 20, DiscountUnitPrice = 16, Quantity = 1 },
+                new ReceiptDetail { Id = 3, ReceiptId = 2, ProductId = 2, UnitPrice = 20, DiscountUnitPrice = 32, Quantity = 2 },
+                new ReceiptDetail { Id = 4, ReceiptId = 3, ProductId = 1, UnitPrice = 40, DiscountUnitPrice = 36, Quantity = 2 },
+                new ReceiptDetail { Id = 5, ReceiptId = 3, ProductId = 2, UnitPrice = 20, DiscountUnitPrice = 18, Quantity = 5 }
             };
     }
 }

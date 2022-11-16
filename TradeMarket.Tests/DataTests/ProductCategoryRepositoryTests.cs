@@ -89,8 +89,8 @@ namespace TradeMarket.Tests.DataTests
         private static IEnumerable<ProductCategory> ExpectedProductCategories =>
             new[]
             {
-                new ProductCategory { Id = 1, CategoryName = "Category1" },
-                new ProductCategory { Id = 2, CategoryName = "Category2" }
+                new ProductCategory { Id = 1, CategoryName = "Dairy products" },
+                new ProductCategory { Id = 2, CategoryName = "Fruit juices" }
             };
     }
 }

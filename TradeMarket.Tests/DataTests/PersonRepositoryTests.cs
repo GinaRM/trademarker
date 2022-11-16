@@ -94,8 +94,8 @@ namespace TradeMarket.Tests.DataTests
         private static IEnumerable<Person> ExpectedPersons =>
             new[]
             {
-                new Person { Id = 1, Name = "Name1", Surname = "Surname1", BirthDate = new DateTime(1980, 5, 25) },
-                new Person { Id = 2, Name = "Name2", Surname = "Surname2", BirthDate = new DateTime(1984, 10, 19) }
+                new Person { Id = 1, Name = "Han", Surname = "Solo", BirthDate = new DateTime(1942, 7, 13) },
+                new Person { Id = 2, Name = "Ethan", Surname = "Hunt", BirthDate = new DateTime(1964, 8, 18) }
             };
     }
 }

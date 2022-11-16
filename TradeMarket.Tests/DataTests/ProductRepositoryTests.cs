@@ -129,8 +129,8 @@ namespace TradeMarket.Tests.DataTests
         private static IEnumerable<Product> ExpectedProducts =>
             new[]
             {
-                new Product { Id = 1, ProductCategoryId = 1, ProductName = "Name1", Price = 20 },
-                new Product { Id = 2, ProductCategoryId = 2, ProductName = "Name2", Price = 50 }
+                new Product { Id = 1, ProductCategoryId = 1, ProductName = "Milk", Price = 40 },
+                new Product { Id = 2, ProductCategoryId = 2, ProductName = "Orange juice", Price = 20 }
             };
     }
 }

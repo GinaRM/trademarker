@@ -154,25 +154,25 @@ namespace TradeMarket.Tests.DataTests
         private static IEnumerable<Product> ExpectedProducts =>
             new[]
             {
-                new Product { Id = 1, ProductCategoryId = 1, ProductName = "Name1", Price = 20 },
-                new Product { Id = 2, ProductCategoryId = 2, ProductName = "Name2", Price = 50 }
+                new Product { Id = 1, ProductCategoryId = 1, ProductName = "Milk", Price = 40 },
+                new Product { Id = 2, ProductCategoryId = 2, ProductName = "Orange juice", Price = 20 }
             };
 
         private static IEnumerable<ProductCategory> ExpectedProductCategories =>
             new[]
             {
-                new ProductCategory { Id = 1, CategoryName = "Category1" },
-                new ProductCategory { Id = 2, CategoryName = "Category2" }
+                new ProductCategory { Id = 1, CategoryName = "Dairy products" },
+                new ProductCategory { Id = 2, CategoryName = "Fruit juices" }
             };
 
         private static IEnumerable<ReceiptDetail> ExpectedReceiptsDetails =>
             new[]
             {
-                new ReceiptDetail { Id = 1, ReceiptId = 1, ProductId = 1, UnitPrice = 20, DiscountUnitPrice = 16, Quantity = 3 },
-                new ReceiptDetail { Id = 2, ReceiptId = 1, ProductId = 2, UnitPrice = 50, DiscountUnitPrice = 40, Quantity = 1 },
-                new ReceiptDetail { Id = 3, ReceiptId = 2, ProductId = 2, UnitPrice = 50, DiscountUnitPrice = 40, Quantity = 2 },
-                new ReceiptDetail { Id = 4, ReceiptId = 3, ProductId = 1, UnitPrice = 20, DiscountUnitPrice = 18, Quantity = 2 },
-                new ReceiptDetail { Id = 5, ReceiptId = 3, ProductId = 2, UnitPrice = 50, DiscountUnitPrice = 45, Quantity = 5 }
+                new ReceiptDetail { Id = 1, ReceiptId = 1, ProductId = 1, UnitPrice = 40, DiscountUnitPrice = 32, Quantity = 3 },
+                new ReceiptDetail { Id = 2, ReceiptId = 1, ProductId = 2, UnitPrice = 20, DiscountUnitPrice = 16, Quantity = 1 },
+                new ReceiptDetail { Id = 3, ReceiptId = 2, ProductId = 2, UnitPrice = 20, DiscountUnitPrice = 32, Quantity = 2 },
+                new ReceiptDetail { Id = 4, ReceiptId = 3, ProductId = 1, UnitPrice = 40, DiscountUnitPrice = 36, Quantity = 2 },
+                new ReceiptDetail { Id = 5, ReceiptId = 3, ProductId = 2, UnitPrice = 20, DiscountUnitPrice = 18, Quantity = 5 }
             };
 
         private static IEnumerable<Customer> ExpectedCustomers =>
